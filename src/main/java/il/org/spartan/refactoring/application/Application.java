@@ -41,6 +41,7 @@ import il.org.spartan.utils.*;
   @Override public Object start(final IApplicationContext arg0) {
     
     System.out.println("Starting the application ... ");
+    System.out.println("Test for Travis ... ");
     if (parseArguments(as.list((String[]) arg0.getArguments().get(IApplicationContext.APPLICATION_ARGS))))
       return IApplication.EXIT_OK;
     final List<FileStats> fileStats = new ArrayList<>();
