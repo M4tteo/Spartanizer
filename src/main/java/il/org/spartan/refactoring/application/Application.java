@@ -81,6 +81,7 @@ import il.org.spartan.utils.*;
       }
     }
     System.out.println(done + " files processed. " + (failed == 0 ? "" : failed + " failed."));
+    System.out.println("Ending the application ... ");
     if (optStatsChanges)
       printChangeStatistics(fileStats);
     if (optStatsLines)
